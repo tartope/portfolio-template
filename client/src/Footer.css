@@ -1,0 +1,14 @@
+.footer{
+    width: 18.4375rem;
+    height: 3.875rem;
+    flex-shrink: 0;
+    background: #ebccab;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    margin-right: 60rem;
+    margin-bottom: 1.8rem;
+}
+
+.footer > img {
+    margin-right: 0.5rem;
+  }

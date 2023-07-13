@@ -27,17 +27,15 @@ body {
   height: 64rem;
 }
 
-.contact-options {
-  width: 18.4375rem;
-  height: 3.875rem;
-  flex-shrink: 0;
-  background: #ebccab;
-  margin-top: 32rem;
-  margin-left: 2rem;
-  margin-right: 60rem;
-  margin-bottom: 1.8rem;
+.content-container {
+  display: flex;
+  /* background-color: purple; */
 }
 
-img {
-  margin-right: 0.5rem;
+.content-container > div{
+  text-align: center;
+  /* background-color: blue; */
+  width: 30rem;
+  margin: 20px 200px 0px 20px;
+  text-align: center;
 }
