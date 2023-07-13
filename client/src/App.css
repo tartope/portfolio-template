@@ -8,23 +8,12 @@ html {
   overflow: hidden;
 }
 
-/* html,
-body {
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-  width: 100%;
-} */
-
-/* #root {
-  height: 100vh;
-  width: 100vw;
-} */
-
 .App {
   background: #ebccab;
-  width: 100rem;
-  height: 64rem;
+  /* width: 100rem;
+  height: 64rem; */
+  width: 100vw;
+  height: 100vh;
 }
 
 .content-container {
@@ -32,7 +21,7 @@ body {
   /* background-color: purple; */
 }
 
-.content-container > div{
+.content-container > div {
   text-align: center;
   /* background-color: blue; */
   width: 30rem;
