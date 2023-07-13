@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+} */
+
+/* #root {
+  height: 100vh;
+  width: 100vw;
+} */
+
+.App {
+  background: #ebccab;
+  width: 100rem;
+  height: 64rem;
+}
+
+.contact-options {
+  width: 18.4375rem;
+  height: 3.875rem;
+  flex-shrink: 0;
+  background: #ebccab;
+  margin-top: 32rem;
+  margin-left: 2rem;
+  margin-right: 60rem;
+  margin-bottom: 1.8rem;
+}
+
+img {
+  margin-right: 0.5rem;
+}
