@@ -5,7 +5,8 @@ export const LargePic = () => {
   return (
     <div className='large-pic'>
         <div className='pic'>
-          <p>image</p>
+          {/* Add your picture here */}
+          <img src="/assets/profilePlaceholderPic.jpg" alt="dev icon" />
         </div>
     </div>
   )

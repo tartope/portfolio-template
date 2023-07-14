@@ -1,10 +1,17 @@
 import React from 'react'
+import './Projects.css'
 
 export const Projects = () => {
   return (
-    <div>
+    <div className='projects'>
         Projects
-        <p style={{ alignSelf: "flex-end" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor condimentum elit, eu sagittis diam dapibus porttitor. Nulla facilisi. Aenean porta molestie lacus eu lobortis. Sed commodo ligula eros, et semper lacus vulputate ut. Vestibulum tincidunt ex eget molestie vehicula. Mauris aliquam tincidunt justo a malesuada. Nam molestie lorem vitae eros porta dictum. Cras posuere mattis dui id fringilla. Nam pellentesque ultricies nibh eu feugiat. Ut pellentesque placerat nisi, vitae consectetur risus tempus sed.</p>
+        <h1>Your Name Here</h1>
+        <h2>Job Title Here</h2>
+        <h2>Projects</h2>
+        <img src="/assets/projectPlaceholderPic.webp" alt="blog icon" />
+        <img src="/assets/projectPlaceholderPic.webp" alt="blog icon" />
+        <img src="/assets/projectPlaceholderPic.webp" alt="blog icon" />
+        
     </div>
   )
 }

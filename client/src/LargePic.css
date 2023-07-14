@@ -1,12 +1,16 @@
 .large-pic > .pic{
-    border: black solid 1px;
-    width: 20rem;
-    height: 21rem;
-    flex-shrink: 0;
-    border-radius: 25.375rem;
-    margin-top: 5rem;
-    margin-left: 2.94rem;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-  }
+  /* border: black solid 1px; */
+  width: 20rem;
+  height: 21rem;
+  flex-shrink: 0;
+  /* border-radius: 25.375rem; */
+  margin-top: 5rem;
+  margin-left: 2.94rem;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pic > img{
+  border-radius: 25.375rem;
+}

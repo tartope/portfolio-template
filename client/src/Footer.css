@@ -1,14 +1,31 @@
-.footer{
+.footer {
+  background: #ebccab;
+  height: 3.875rem;
+  flex-shrink: 0;
+  display: flex;
+  margin-left: 2rem;
+}
+
+.contact-options {
+  /* display: flex; */
+  /* align-items: center; */
+  width: 18.4375rem;
+  height: 3.875rem;
+  flex-shrink: 0;
+  background: #ebccab;
+}
+
+/* .footer{
     width: 18.4375rem;
     height: 3.875rem;
     flex-shrink: 0;
     background: #ebccab;
-    margin-top: 20rem;
+    margin-top: 7rem;
     margin-left: 2rem;
     margin-right: 60rem;
     margin-bottom: 1.8rem;
-}
+} */
 
-.footer > img {
-    margin-right: 0.5rem;
-  }
+.contact-options > img {
+  margin-right: 0.5rem;
+}

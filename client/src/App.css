@@ -3,17 +3,13 @@
   padding: 0px;
 }
 
-html {
-  height: 100%;
-  overflow: hidden;
-}
-
 .App {
   background: #ebccab;
   /* width: 100rem;
   height: 64rem; */
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 .content-container {

@@ -1,9 +1,15 @@
 import React from 'react'
+import { BlogCard } from './BlogCard'
 
-export const Blog = () => {
+export const Blog = ({ blogs }) => {
+
+  const blog = blogs.map(blogItem =>{
+    return <BlogCard key={blogItem.id} blogItem={blogItem} />
+  })
   return (
-    <div>
-        Blog
+    <div className='blogs'>
+      Blog
+      {blog}
     </div>
   )
 }
