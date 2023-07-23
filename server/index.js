@@ -27,3 +27,6 @@ app.use((req, res)=> res.status(404).send('This is not the page you are looking 
 app.listen(PORT, () => {
   console.log(`Server listening on port: ${PORT}...`);
 });
+
+
+// Starts in index.js -> goes to api.js -> blogsController.js (which gets info about blog object (model) from Blogs.js)
