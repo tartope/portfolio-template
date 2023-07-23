@@ -1,10 +1,9 @@
-const cors = require("cors");
 const express = require("express");
-const mongoose = require("mongoose");
-const BlogModel = require("./models/Blogs");
+const cors = require("cors");
 
-const PORT = 8080;
 const app = express();
+const apiRouter = require('./routes/api');
+const PORT = 8080;
 
 const corsOptions = {
   origin: ["http://localhost:3000"],
@@ -12,39 +11,19 @@ const corsOptions = {
 };
 
 app.use(cors());
+
+// Handle parsing request body
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const MONGO_URI =
-  "mongodb+srv://tartope:wGQjs0uOPuikHdiY@cluster0.x7ng6da.mongodb.net/?retryWrites=true&w=majority";
+// Define route handlers
+app.use('/api', apiRouter);
 
-mongoose
-  .connect(MONGO_URI, {
-    // Options for the connect method to parse the URI
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    // Sets the name of the DB that our collections are part of
-    dbName: "portfolio-template",
-  })
-  .then(() => {
-    console.log("in the then");
-    console.log("Connected to MongoDB");
-  })
-  .catch((error) => {
-    console.log("in the catch");
-    console.log("Error: Connecting to MongoDB: ", error);
-  });
+// Catch-all route handler for any requests to an unknown route
+app.use((req, res)=> res.status(404).send('This is not the page you are looking for...'));
 
-app.get("/getBlogs", async (req, res) => {
-  try {
-    const result = await BlogModel.find({});
-    res.json(result);
-    console.log(result);
-  } catch (err) {
-    res.json(err);
-  }
-});
 
+// Start server
 app.listen(PORT, () => {
   console.log(`Server listening on port: ${PORT}...`);
 });
