@@ -9,6 +9,9 @@ import { LargePic } from "./LargePic";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+// TODO: Note: Replace ^[theme]^ (examples: darkly, slate, cosmo, spacelab, and superhero. See https://bootswatch.com for current theme names.)
+import "bootswatch/dist/sketchy/bootstrap.min.css";
 import "./App.css";
 
 function App() {

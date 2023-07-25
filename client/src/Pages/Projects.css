@@ -1,12 +1,22 @@
 .projects{
-    color: #FAF9F6;
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-.projects > img{
-    width: 40vh;
+.pics-container{
+   /* background-color: pink; */
+   width: 350px;
+   height: 300px;
+   position: absolute;
+   top: 40%;
+   left: 6%;
+   overflow: auto;
 }
+
+.pics-container > img{
+    width: 20vw;
+    height: 25vh;
+    margin-bottom: 1rem;
+}
+

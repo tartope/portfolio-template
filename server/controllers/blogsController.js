@@ -73,7 +73,7 @@ blogsController.deleteBlog = async (req, res) => {
     // Assign deleted blog to variable
     const deleteBlog = await BlogModel.findByIdAndDelete(blogId);
     // Send response with deleted blog
-    res.send(deleteBlog).status(200)
+    res.send(deleteBlog).status(200);
   } catch (err) {
     return res
       .status(400)

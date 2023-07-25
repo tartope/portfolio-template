@@ -5,8 +5,6 @@
 
 .App {
   background: #ebccab;
-  /* width: 100rem;
-  height: 64rem; */
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -14,13 +12,13 @@
 
 .content-container {
   display: flex;
+  justify-content: space-around;
   /* background-color: purple; */
 }
 
 .content-container > div {
   text-align: center;
   /* background-color: blue; */
-  width: 30rem;
-  margin: 20px 200px 0px 20px;
-  text-align: center;
+  width: 25rem;
+  margin: 20px 100px 0px 20px;
 }
