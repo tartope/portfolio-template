@@ -8,7 +8,7 @@ export const Blog = ({ blogs }) => {
 
   return (
     <div className="blog">
-      <div className="overflow-auto w-100 h-50">{blog}</div>
+      <div className="overflow-auto w-100 h-100">{blog}</div>
     </div>
   );
 };

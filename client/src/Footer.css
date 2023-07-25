@@ -13,6 +13,7 @@
   height: 3.875rem;
   flex-shrink: 0;
   background: #ebccab;
+  position: fixed;
 }
 
 /* .footer{
