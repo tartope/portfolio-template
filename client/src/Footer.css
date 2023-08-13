@@ -1,5 +1,4 @@
 .footer {
-  background: #ebccab;
   height: 3.875rem;
   flex-shrink: 0;
   display: flex;
@@ -7,25 +6,11 @@
 }
 
 .contact-options {
-  /* display: flex; */
-  /* align-items: center; */
   width: 18.4375rem;
   height: 3.875rem;
   flex-shrink: 0;
-  background: #ebccab;
   position: fixed;
 }
-
-/* .footer{
-    width: 18.4375rem;
-    height: 3.875rem;
-    flex-shrink: 0;
-    background: #ebccab;
-    margin-top: 7rem;
-    margin-left: 2rem;
-    margin-right: 60rem;
-    margin-bottom: 1.8rem;
-} */
 
 .contact-options > img {
   margin-right: 0.5rem;

@@ -1,22 +1,20 @@
-.projects{
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.projects {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-.pics-container{
-   /* background-color: pink; */
-   width: 350px;
-   height: 300px;
-   position: absolute;
-   top: 40%;
-   left: 6%;
-   overflow: auto;
+.pics-container {
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 40%;
+  left: 6%;
+  overflow: auto;
 }
 
-.pics-container > img{
-    width: 20vw;
-    height: 25vh;
-    margin-bottom: 1rem;
+.pics-container > img {
+  width: 20vw;
+  height: 30vh;
+  /* margin-bottom: 1rem; */
 }
-

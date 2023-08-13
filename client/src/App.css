@@ -4,7 +4,7 @@
 }
 
 .App {
-  background: #ebccab;
+  background-image: radial-gradient(circle farthest-corner at center, rgba(248, 198, 182, 1) 35%, rgba(235, 204, 171, 1) 65%, rgba(215, 211, 170, 1) 100%);
   width: 100vw;
   height: 100vh;
   /* overflow: hidden; */
@@ -12,13 +12,11 @@
 
 .content-container {
   display: flex;
-  justify-content: space-around;
-  /* background-color: purple; */
+  justify-content: space-between;
 }
 
 .content-container > div {
   text-align: center;
-  /* background-color: blue; */
   width: 25rem;
   height: 30rem;
   margin: 20px 100px 0px 20px;
